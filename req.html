@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Requirements page</title>
+	<link rel="stylesheet" href="reqStyle.css">
+</head>
+<body>
+
+<h1>CMP204 Requirements Page - Unit 2 Assessment</h1>
+
+Login details if needed:
+username: DearestTeacher
+password: hardPassword
+
+<p>If you have not met a requirement, do not delete it from the table.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th class="reqCol">Requirement</th>
+      <th class="metCol">How did you meet this requirement?</th>
+      <th class="fileCol">File name(s), line no.</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>HTML, CSS, JavaScript has been contained within separate files.</td>
+      <td>All HTML files are included in seperate php files, javascript files in their own folder, and 1 CSS file only</td>
+      <td>about.php, cookiepolicy.php, index.php, login.php, profil.php, songs.php, jsActivated(all JS files in there), styles.css, the rest are in php includes</td>
+    </tr>
+
+    <tr>
+      <td>A clear use of HTML5.</td>
+      <td>Clear, seperated, commented code, structured in their own folders based on functionality</td>
+      <td>about.php, cookiepolicy.php, index.php, login.php, profil.php, songs.php, cookie.php, header.php, top-background.php, editDelete.php, log.php, reg.php</td>
+    </tr>
+    <tr>
+      <td>Use of the Bootstrap framework providing a responsive layout.</td>
+      <td>Used on every page the user sees, with other Bootstrap functionalities, like dropdown-menu</td>
+      <td>about.php, cookiepolicy.php, index.php, login.php, profil.php, songs.php, cookie.php, header.php, top-background.php, editDelete.php, log.php, reg.php</td>
+    </tr>
+    <tr>
+      <td>Use of JavaScript to manipulate the DOM based on an event.</td>
+      <td>Manipulated the DOM, usually after a click of the button, event listeners</td>
+      <td>background-sound.js, cookieButton.js(38-53), indexButtonListener.js, registerOrLogin.js</td>
+    </tr>
+    <tr>
+      <td>Use of jQuery in conjunction with the DOM.</td>
+      <td>Manipulated the DOM, listened to button clicks with JQuery</td>
+      <td>aboutButtonListener.js, morealbums.js</td>
+    </tr>
+    <tr>
+      <td>Use of AJAX (pure JavaScript i.e. without the use of a library).</td>
+      <td>To change login and register form</td>
+      <td>registerOrLogin.js</td>
+    </tr>
+    <tr>
+      <td>Use of the jQuery AJAX function.</td>
+      <td>To load in more albums with the help of html</td>
+      <td>morealbums.js</td>
+    </tr>
+    <tr>
+      <td>User login functionality (PHP/MySQL).</td>
+      <td>User can log in, register through the login.php page, helps the user too, if mistakes were made, does validity checking</td>
+      <td>connect.php, handler.php, log-in.php, login.php, log.php, logout.php, errormessage.php, </td>
+    </tr>
+    <tr>
+      <td>Ability to select (SELECT), add (INSERT), edit (UPDATE) and delete (DELETE) information from a database (PHP/MySQL).</td>
+      <td>Ability to log in through SELECT, register through INSERT, edit profile details through UPDATE, delete user through DELETE</td>
+      <td>connect.php, handler.php, log-in.php, login.php, log.php, logout.php, edit.php, editDelete.php, getData.php, reg.php, register.php, remove.php</td>
+    </tr>
+    <tr>
+      <td>Consideration of GDPR and the Cookie Law.</td>
+      <td>Cookie button, and cookie policy page, if user wants to read it again.</td>
+      <td>cookieButton.js, cookiepolicy.php</td>
+    </tr>
+    <tr>
+      <td>SQL queries written as prepared statements.</td>
+      <td>All SQL queries, where data is put into, or removed, changed is put through prepared SQL statements</td>
+      <td>edit.php(24), handler.php(80, 105, 136), remove.php(8)</td>
+    </tr>
+    <tr>
+      <td>Passwords should be salted and hashed.</td>
+      <td>All passwords are salted and hashed with the use of the password_hash function, increases security with automatic SALT</td>
+      <td>handler.php(112)</td>
+    </tr>
+    <tr>
+      <td>User input is sanitised.</td>
+      <td>Every user input is sanitised with filter_var(either with email or special chars), but prepared statements also should do the job in case these measures fail</td>
+      <td>edit.php, log-in.php, register.php</td>
+    </tr>
+  </tbody>
+
+
+
+</table>
+		
+</body>
+</html>
+
+
+

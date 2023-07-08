@@ -1,0 +1,264 @@
+
+@font-face {
+    font-family: "ITC Cheltenham Bold";
+    src: "Cheltenham Condensed Bold.ttf";
+}
+
+
+body {
+
+    font-family: "ITC Cheltenham Bold";
+    overflow-x: hidden;
+
+}
+
+.background-video {
+
+    position: relative;
+
+}
+
+.navbar {
+
+    background-color: rgba(27, 18, 23, 0.2);
+
+}
+
+#topvideo {
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#navigationMenu img {
+
+    position: relative;
+    width: 100%;
+    max-width: 15vh;
+    max-height: 15vh;
+    opacity: 0.4;
+
+}
+
+#pleaseWork {
+
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.85);
+    font-style: italic;
+
+}
+
+.indexClick {
+
+    position: absolute;
+    top: 67%;
+    right: 2%;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+h3, h5 {
+
+    font-weight: bold;
+    color: crimson;
+
+} 
+
+.front-page-intro {
+    color:aquamarine;
+}
+.front-page-name{
+    color:purple
+}
+
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:visited,
+.btn-dark:focus{
+
+    width: 8rem;
+    height: auto;
+    background-color: transparent;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 0;
+
+}
+.mainText {
+
+    padding-bottom: 12px;
+
+}
+
+#cookie-container {
+
+    position: fixed;
+    background-color: rgb(27, 18, 23);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.aboutSeatBelts {
+
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.quote {
+
+    font-size: 30px;
+    padding: 45px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.SeatbeltImages {
+
+    padding-bottom: 20px;
+
+}
+
+.endPageImages {
+
+    padding: 40px;
+
+}
+
+.navigation {
+
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.secondMainText {
+
+    padding-bottom: 10px;
+
+}
+
+.bigLogo {
+
+    top:80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.cookiePolicy {
+
+    margin-top: 200px;
+    text-align: left;
+    color: white;
+    top: -50%;
+    vertical-align: bottom;
+    padding-bottom: 40px;
+
+}
+
+.music {
+
+    margin-top: 200px;
+    min-width: 200px;
+    max-width: 600px;
+
+}
+
+.songs {
+
+    color: white;
+    width: 30%;
+}
+
+.allsongs {
+
+    border-style: solid;
+    color: whitesmoke;
+
+}
+.musicPlayer {
+
+    border-style: solid ;
+    background-color: rgb(0, 0, 0, 0.85);
+
+}
+
+.logInPanel {
+
+    margin-top: 200px;
+    border-style: solid;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
+    visibility: visible;
+
+}
+
+.loginRow {
+
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+
+}
+
+.userinputRow {
+
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.logonButton {
+
+    text-align: center;
+    margin-top:10px;
+
+}
+
+.register {
+
+    color: whitesmoke;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.albums {
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+.topLogo {
+
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
